@@ -1,8 +1,8 @@
-/* General Styles */
+
 body {
-    background-image: url('parchment-paper.jpg'); /* Make sure the image is subtle */
+    background-image: url('parchment-paper.jpg'); 
     background-size: cover;
-    background-attachment: fixed; /* Ensures the background stays fixed as you scroll */
+    background-attachment: fixed; 
     background-color: #f7f2e8; 
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -25,7 +25,7 @@ header h1 {
     font-size: 2rem;
 }
 
-/* Main Content */
+
 main {
     padding: 2rem;
     max-width: 1000px;
@@ -61,7 +61,7 @@ main {
     letter-spacing: 0.5px;
 }
 
-/* Art Gallery */
+
 .art-gallery {
     margin-bottom: 2rem;
 }
@@ -87,11 +87,10 @@ main {
 }
 .wide {
     grid-column: span 2;
-    width: 100%; /* Allow it to span across two grid columns */
+    width: 100%; 
 }
 
 
-/* Inspirational Story */
 .inspirational-story {
     max-width: 800px;
     margin: 2rem auto;
@@ -102,7 +101,7 @@ main {
     line-height: 1.8;
 }
 
-/* Footer */
+
 footer {
     background-color: #333;
     color: #fff;
