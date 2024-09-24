@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    background-image: url('parchment-paper.jpg'); /* Make sure the image is subtle */
+    background-size: cover;
+    background-attachment: fixed; /* Ensures the background stays fixed as you scroll */
+    background-color: #f7f2e8; 
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.artist-profile {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.artist-profile .artist-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.artist-profile .artist-image:hover {
+    transform: scale(1.1);
+}
+
+.bio {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
+
+/* Art Gallery */
+.art-gallery {
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.artwork {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.artwork:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.wide {
+    grid-column: span 2;
+    width: 100%; /* Allow it to span across two grid columns */
+}
+
+
+/* Inspirational Story */
+.inspirational-story {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: hsl(0, 29%, 97%);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    .artist-profile img {
+        width: 150px;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .bio, .inspirational-story {
+        padding: 1rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
