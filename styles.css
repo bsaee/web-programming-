@@ -61,7 +61,6 @@ main {
     letter-spacing: 0.5px;
 }
 
-
 .art-gallery {
     margin-bottom: 2rem;
 }
@@ -91,6 +90,7 @@ main {
 }
 
 
+
 .inspirational-story {
     max-width: 800px;
     margin: 2rem auto;
@@ -101,7 +101,7 @@ main {
     line-height: 1.8;
 }
 
-
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;
