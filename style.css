@@ -1,0 +1,174 @@
+body{
+    background-image: url("art.jpeg");
+    background-size: cover;
+    image-resolution: 3;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+
+ 
+}
+h1{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+#top{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    
+
+}
+#intro{
+    font-size: 30px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 30px; 
+    margin-left: 30px ;
+    margin-top: 0px;
+    padding-top: 0px;    
+}
+nav{
+    background-color:black;
+    display: block;
+    text-align: center;
+}
+nav_el{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    color:BLACK;
+    text-align: center;
+}
+#pipe{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+a{  
+    align-items: center;
+    padding-right: 125px;
+    text-align: center;
+}
+#home{
+    padding-left: 40px;
+}
+footer{
+    background-color: black;
+}
+.social-media{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+#ct{
+    color : white;
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 60px;
+
+}
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content : left;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-left: 265px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+#mail{
+    color: white;
+    font-size: 20px;
+    text-align: left ;
+
+}
+#phn{
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    padding-left: 50px;
+}
+#t{
+    font-size: 20px;
+    padding-left: 60px;
+}
+art{
+    height: 250px;
+    background-color:lemonchiffon;
+    /* main */
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;  
+    display : block;
+
+}
+.artwork{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+img{
+    height: 130px;
+    width: 220px;
+    padding-left: 40px;
+}
+.aboutus{
+    display: flex;
+}
+#about{
+    font-size: 20px;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+}
+#au{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
